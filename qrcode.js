@@ -612,3 +612,8 @@ var QRCode;
 	 */
 	QRCode.CorrectLevel = QRErrorCorrectLevel;
 })();
+
+if (exports) {
+	exports = QRCode;
+}
+
