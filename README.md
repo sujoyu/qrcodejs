@@ -3,6 +3,15 @@ QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-brow
 QRCode.js has no dependencies.
 
 ## Basic Usages
+
+### Webpack
+
+```js
+var QRCode = require("qrcode.js");
+```
+
+### Direct
+
 ```
 <div id="qrcode"></div>
 <script type="text/javascript">
