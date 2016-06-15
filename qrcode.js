@@ -613,7 +613,7 @@ var QRCode;
 	QRCode.CorrectLevel = QRErrorCorrectLevel;
 })();
 
-if (exports) {
-	exports = QRCode;
+if (module && module.exports) {
+	module.exports = QRCode;
 }
 
